@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" type="image/jpg" href="img/logo.png">
+    <link rel="shortcut icon" type="image/jpg" href="./img/Temporary_Food_Bank_Logo.svg">
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css">
 <!-- Map API -->
@@ -23,7 +23,7 @@
 
     <header class="header">
         <nav>
-            <a href="index.html"><img src="img/Temporary-Logo.png" alt="" class="logo" width="60"></a>
+            <a href="index.html"><img src="./img/Temporary_Food_Bank_Logo.svg" alt="" class="logo" width="60"></a>
 
 
             <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -47,17 +47,22 @@
             <img class="images" src="img/how-it-works.png" alt="Groceries">
 
             <p class="how-it-works">
-                Welcome to this Food Bank Search website, where you can GIVE and GET emergency support. Powered by the GIVE Food API, the aim of this website is to enable you to find your closest Food Bank. You can search via your postcode or by looking where an item is needed: by you or your Food Bank.
+                Welcome to this Food Bank Search website, where you can <strong>GIVE</strong> and <strong>GET</strong> emergency support. Powered by the GIVE Food API, the aim of this website is to enable you to find your closest Food Bank. You can search via your postcode or by looking where an item is needed: by you or your Food Bank.<br>
                 <br>
-                Do to the nature of constantly changing levels of stock at Food Banks, do contact them before setting off on your journey to check their opening hours and if the item you wish to GIVE is still required or if the item you wish to GET is still in stock.
+                Due to the constantly changing nature of stock levels at Food Banks, do contact them before setting off on your journey to:
+                <ul>
+                    <li>check their opening hours and</li> 
+                    <li>if the item you wish to <strong>GIVE</strong> is still required or</li>
+                    <li>if the item you wish to <strong>GET</strong> is still in stock.
+                </ul>
             </p>
 
             <div class="form-group">
                 <label for="exampleFormControlSelect1"></label>
                 <select onChange="window.location.href=this.value" class="form-control" id="exampleFormControlSelect1">
                     <option value="" disabled selected>Do you want to...</option>
-                    <option value="givesupport.html">Give Support</option>
-                    <option value="getsupport.html">Get Support</option>
+                    <option value="givesupport.html"><strong>GIVE</strong> Support</option>
+                    <option value="getsupport.html"><strong>GET</strong> Support</option>
                 </select>
             </div>
 
@@ -65,10 +70,13 @@
 
 
     </div>
+    <br>
+    <br>
 <footer>
     <div class="bottom">
         <p>Copyright &#0169 2021. <a href="#">A Group &#8470 04 Project</a> &#10803 made by Esther Agyare-Boateng, Jamie Farrell-More & Sofia Kakembo &#10803</p>
-      </div>
+    </div>
+    <br>
   </footer>
 </body>
 </html>
