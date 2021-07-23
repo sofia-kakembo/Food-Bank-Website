@@ -46,6 +46,7 @@ nav a {
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f4;
+  color: #32cd32;
 }
 
 .header .logo {
