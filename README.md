@@ -1,5 +1,4 @@
 # Food-Bank-Website
-Front End (HTML/CSS/JavaScript) Back End (Python)
+Front End (HTML/CSS/JavaScript)
 This is a work in progress.
-We are temping to merge the two projects (Front End Web Dev. with Back End Python Food Bank Search API)
-
+Group 4: Esther, Jamie and Sofia created this project as part of our Code First Girls Web Dev course. 
